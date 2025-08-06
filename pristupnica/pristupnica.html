@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Dobrodošlica u Udrugu</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f7f4cc;
+      font-weight: 400;
+      font-size: 11pt;
+      line-height: 1.5;
+      letter-spacing: 0;
+      margin: 0;
+      padding: 10px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <table align="center" width="100%" cellspacing="0" cellpadding="0" border="0" style="max-width: 600px; background-color: #fff; margin: 20px auto; padding: 0; border-radius: 12px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">   
+    <tr>
+      <td align="center" style="background-color: #033439; border-top-left-radius: 12px; border-top-right-radius: 12px; padding:30px 0 25px 0;">
+        <img src="https://macaklin.com/wp-content/uploads/2025/04/Logo-glava-i-natpis.png" alt="Event Banner" style="width: 25%; height: auto; display: block;">
+      </td>
+    </tr>
+
+    <!-- Greeting -->
+    <tr>
+      <td style="padding: 20px;">
+        <h2 style="margin-top: 0; color: #333;">Poštovani/a <?= FullName ?>,</h2>
+        <p style="font-size: 15px; color: #333; margin: 0;">
+          Hvala ti što si ispunio/la našu prijavnicu! Sa zadovoljstvom te obavještavamo da smo zaprimili tvoju prijavu za članstvo u našoj udruzi.
+        </p>
+      </td>
+    </tr>
+
+    <!-- Line separator -->
+    <tr>
+      <td>
+        <hr style="border: none; height: 1px; background-color: #f7f4cc; margin: 5px 0; color: #333;">
+      </td>
+    </tr>
+
+    <!-- User Submitted Data Section -->
+    <tr>
+      <td style="padding: 20px;">
+        <h3 style="font-size: 18px; font-weight: bold; margin: 0; color: #333;">Tvoji podaci:</h3>
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top: 10px;">
+          <tr>
+            <td style="font-size: 15px; color: #333; padding: 5px 0;"><strong>Ime i prezime:</strong></td>
+            <td style="font-size: 15px; color: #333; padding: 5px 0;"><?= FullName ?></td>
+          </tr>
+          <tr>
+            <td style="font-size: 15px; color: #333; padding: 5px 0;"><strong>Email adresa:</strong></td>
+            <td style="font-size: 15px; color: #333; padding: 5px 0;"><?= EmailAddress ?></td>
+          </tr>
+          <tr>
+            <td style="font-size: 15px; color: #333; padding: 5px 0;"><strong>Adresa i mjesto:</strong></td>
+            <td style="font-size: 15px; color: #333; padding: 5px 0;"><?= AdresaIMjesto ?></td>
+          </tr>
+          <tr>
+            <td style="font-size: 15px; color: #333; padding: 5px 0;"><strong>Datum rođenja:</strong></td>
+            <td style="font-size: 15px; color: #333; padding: 5px 0;"><?= DatumRodenja ?></td>
+          </tr>
+          <tr>
+            <td style="font-size: 15px; color: #333; padding: 5px 0;"><strong>OIB:</strong></td>
+            <td style="font-size: 15px; color: #333; padding: 5px 0;"><?= OIB ?></td>
+          </tr>
+          <tr>
+            <td style="font-size: 15px; color: #333; padding: 5px 0;"><strong>Broj mobitela:</strong></td>
+            <td style="font-size: 15px; color: #333; padding: 5px 0;"><?= BrojMobitela ?></td>
+          </tr>
+          <tr>
+            <td style="font-size: 15px; color: #333; padding: 5px 0;"><strong>Zanimanje:</strong></td>
+            <td style="font-size: 15px; color: #333; padding: 5px 0;"><?= Zanimanje ?></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+    <!-- Line separator -->
+    <tr>
+      <td>
+        <hr style="border: none; height: 1px; background-color: #f7f4cc; margin: 5px 0;">
+      </td>
+    </tr>
+
+    <!-- Membership Information -->
+    <tr>
+      <td style="padding: 20px;">
+        <h3 style="font-size: 18px; font-weight: bold; margin: 0; color: #333;">Posljednji koraci:</h3>
+        <p style="font-size: 15px; color: #333; margin-top: 10px;">
+          Kako bi postao/la punopravni član naše udruge i iskoristio/la sve pogodnosti koje članstvo donosi, molimo te da izvršiš uplatu članarine. Detalji o načinu plaćanja nalaze se u nastavku ovog emaila.
+        </p>
+        <p style="font-size: 15px; color: #333; margin-top: 10px;">
+          Veselimo se tvojem aktivnom sudjelovanju u našim aktivnostima i događanjima. Naša udruga pruža brojne mogućnosti za druženje, edukaciju, volontiranje i sportske aktivnosti. Bilo da želiš upoznati nove ljude, sudjelovati u radionicama ili doprinijeti zajednici, vjerujemo da ćeš pronaći nešto za sebe.
+        </p>
+        <p style="font-size: 15px; color: #333; margin-top: 10px;">
+          Ako imaš bilo kakva pitanja ili trebaš dodatne informacije, slobodno nas kontaktiraj. Tu smo za tebe!
+        </p>
+        <p style="font-size: 15px; color: #333; margin-top: 10px;">
+          Još jednom, dobrodošao/la u našu zajednicu!
+        </p>
+      </td>
+    </tr>
+
+    <!-- Line separator -->
+    <tr>
+      <td>
+        <hr style="border: none; height: 1px; background-color: #f7f4cc; margin: 5px 0;">
+      </td>
+    </tr>
+
+    <!-- Payment Section -->
+    <tr>
+      <td style="padding: 20px;">
+        <h3 style="font-size: 18px; font-weight: bold; margin: 0; color: #333;">Način plaćanja:</h3>
+        <p style="font-size: 15px; color: #333; margin-top: 10px;">
+          Molimo te da izvršiš uplatu članarine na sljedeći račun:
+        </p>
+        <p style="font-size: 15px; color: #333; margin-top: 10px;">
+          <strong>Banka:</strong> Zagrebačka banka<br>
+          <strong>Broj računa (IBAN):</strong> HR8923600001103161823<br>
+          <strong>Opis plaćanja:</strong> Članarina - Ime i Prezime
+        </p>
+        <p style="font-size: 15px; color: #333; margin-top: 10px;">
+          <strong><i>Napomena:</strong> Ako plaćaš za drugu osobu, upiši njezino ime i prezime.</i>
+        </p>
+        <p style="font-size: 15px; color: #333; margin-top: 30px;">
+          Uplatu možeš izvršiti i skeniranjem sljedećeg barkoda:
+        </p>
+        <p style="text-align: center;">
+          <img src="https://macaklin.com/wp-content/uploads/2025/04/barkod-pristupnica.png" alt="QR Code" style="height:70px;">
+        </p>
+      </td>
+    </tr>
+
+    <!-- Line separator -->
+    <tr>
+      <td>
+        <hr style="border: none; height: 1px; background-color: #f7f4cc; margin: 5px 0;">
+      </td>
+    </tr>
+
+    <!-- Social Media Section -->
+    <tr>
+      <td style="padding: 20px; padding-bottom: 70px;">
+        <p style="font-size: 18px; font-weight: bold; color: #333; margin: 0;">Prati nas na društvenim mrežama:</p>
+        <p style="font-size: 15px; color: #333; margin-top: 10px;">
+          Budi u toku s najnovijim vijestima i događajima putem našeg Instagram profila.
+        </p>
+        <p style="font-size: 15px; line-height: 1.7;">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" width="18" alt="Instagram Icon" style="vertical-align: middle; margin-right: 5px;">
+          <a href="https://www.instagram.com/macaklin.events/">Prati nas na Instagramu</a>
+        </p>
+      </td>
+    </tr>
+
+    <!-- Footer -->
+    <tr>
+      <td align="center" style="padding-top: 5px; padding-bottom: 15px; border-radius: 0 0 12px 12px; background-color: #033439;">
+        <p style="font-size: 11px; color: #d9c900;">Srdačan pozdrav,<br/>Macaklin Social Club</p>
+        <img src="https://macaklin.com/wp-content/uploads/2025/04/Logo-samo-glava.png" alt="Event Banner" style="width: 10%; height: auto; display: block;">
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
